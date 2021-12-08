@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+.logo {
+  color: var(--dark-blue);
+  font-size: 2rem;
+  font-weight: var(--font-bold);
+  transition: color 100ms ease;
+}
+.logo:hover {
+  color: var(--blue);
+}
+.navlinks {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navlinkanchors {
+  color: var(--dark-blue);
+  font-size: 1.2rem;
+  margin: 0 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: color 100ms ease;
+}
+.navlinkanchors:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
