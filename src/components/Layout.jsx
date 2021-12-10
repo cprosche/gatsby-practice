@@ -3,8 +3,9 @@ import Navbar from "./Navbar"
 import "../styles/global.css"
 import * as styles from "../styles/layout.module.css"
 import Footer from "./Footer"
+import "bootstrap/dist/css/bootstrap.min.css"
 
-export default function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
     <div className={styles.layout}>
       <Navbar />
@@ -13,3 +14,5 @@ export default function Layout({ children }) {
     </div>
   )
 }
+
+export default Layout

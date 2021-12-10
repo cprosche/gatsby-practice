@@ -9,6 +9,7 @@
   font-size: 2rem;
   font-weight: var(--font-bold);
   transition: color 100ms ease;
+  text-decoration: none;
 }
 .logo:hover {
   color: var(--blue);

@@ -5,7 +5,9 @@ import * as styles from "../styles/navbar.module.css"
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <h1 className={styles.logo}>Cade Rosche</h1>
+      <Link to="/" className={styles.logo}>
+        Cade Rosche
+      </Link>
       <div className={styles.navlinks}>
         <Link to="/" className={styles.navlinkanchors}>
           Home
