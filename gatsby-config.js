@@ -6,5 +6,18 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/src/notes/`,
+      },
+    }
+  ],
+  siteMetadata: {
+    title: "Cade Rosche Gatsby Practice",
+    owner: "Cade Rosche",
+    version: "1.0.1"
+  }
 }
